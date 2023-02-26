@@ -22,7 +22,7 @@ class Product < ActiveRecord::Base
            count += 1
          end
 
-        sum / count
+        (sum / count).to_f
 
     end
 end
