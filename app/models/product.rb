@@ -14,6 +14,15 @@ class Product < ActiveRecord::Base
     end
 
     def average_rating
-        
+        sum = 0.0
+        count = 0
+
+        reviews.each do |review|
+           sum += review.star_rating
+           count += 1
+         end
+
+        sum / count
+
     end
 end
