@@ -37,7 +37,7 @@ Clone the repo by using the following:
 
 Change directory to the repo folder: 
 
-        cd code-one
+        cd Product-Review
 
 Open it in Visual Studio Code
 
