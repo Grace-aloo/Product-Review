@@ -4,4 +4,4 @@ default: &default
 
 development: 
   <<: *default  
-  database: db/todos-dev.sqlite3
+  database: db/product-review-dev.sqlite3
